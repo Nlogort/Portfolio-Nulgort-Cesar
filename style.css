@@ -2,11 +2,70 @@
   padding: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  font-size: 20px;
 }
 
+.sobreMim{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 5px;
+}
 
+.tecnologias{
+background-color:green;
+display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 5px;
+}
+.logos{
+  background-color: #fff;
+  flex-direction: row;
+  
+}
 
+.projetos{
+background-color: blue;
+display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 5px;
+}
 
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 5px;
+}
+h3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 5px;
+}
 
-
-
+.card-jogo{
+  background-color: #fff;
+  margin: 10px;
+}
+.card-agrinho{
+  background-color:greenyellow;
+  margin: 10px;
+}
+.card-bolo{
+  background-color:red;
+  margin: 10px;
+}
