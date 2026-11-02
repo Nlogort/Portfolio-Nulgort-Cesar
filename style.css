@@ -30,12 +30,12 @@ display: flex;
 .logo-html{
   width: 100px;
   height: 100px;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 .logo-css{
   width: 100px;
   height: 100px;
-   margin-right: 40px;
+   margin-right: 10px;
 }
 .logo-js{
   width: 100px;
@@ -44,12 +44,19 @@ display: flex;
 }
 
 main{
+  margin: 5px;
+  padding: 5px;
   display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-between;
 }
 .minha-foto{
  width: 100px;
- margin: 10px;
-
+margin: 20px;
+display: flex;
+flex-direction:row;
+ 
 }
 
 .projetos{
@@ -62,10 +69,10 @@ display: flex;
 }
 
 h1{
-  font-size: 30px;
+  font-size: 25px;
 }
 h2{
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 5px;
   padding: 5px;
 }
